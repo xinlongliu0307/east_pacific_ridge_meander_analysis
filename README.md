@@ -1,6 +1,6 @@
 # Pacific–Antarctic Ridge Meander Analysis  
 
-This repository provides the datasets, MATLAB functions, and figures used in the analysis of the **characteristics and long-term trends of the Pacific–Antarctic Ridge (PAR) meander** in the Southern Ocean over the **1993–2023** period.
+This repository provides the datasets, MATLAB functions, and figures used in the analysis of the **Standing Meanders of the Antarctic Circumpolar Current: Evidence for Ridge-Controlled Eddy Saturation**.
 
 The analyses combine satellite altimetry, RG Argo climatology, and CMEMS surface geostrophic velocities to document meander structure, variability, and associated eddy kinetic energy (EKE).  
 
