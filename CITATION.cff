@@ -1,0 +1,72 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software, please cite both this repository (this file)
+  and the manuscript listed under preferred-citation.
+type: software
+title: >-
+  Pacific-Antarctic Ridge Meander Analysis: code and supporting figures
+  for "Standing Meanders of the Antarctic Circumpolar Current: Evidence
+  for Ridge-Controlled Eddy Saturation"
+version: 1.0.0
+date-released: "2026-05-28"
+license: MIT
+repository-code: >-
+  https://github.com/xinlongliu0307/southern-ocean-pacific-antarctic-ridge-meander-trends
+abstract: >-
+  Datasets, MATLAB functions, and figures used in the analysis of standing
+  meanders of the Antarctic Circumpolar Current over the Pacific-Antarctic
+  Ridge. The analyses combine satellite altimetry, the Roemmich-Gilson Argo
+  climatology, and CMEMS surface geostrophic velocities to document meander
+  position, width, intensity, and associated eddy kinetic energy over
+  1993-2023. The repository includes data folders with monthly meander
+  positions and north/south boundary latitudes, and eight numbered MATLAB
+  scripts implementing the Argo 4D-cube construction, the gyre ADT trend,
+  the Mann-Kendall and modified Mann-Kendall tests, the EKE trend
+  analysis, the meander width-speed decomposition, the Theil-Sen
+  estimator, and the publication-figure plotting routines.
+
+authors:
+  - family-names: Liu
+    given-names: Xinlong
+    orcid: "https://orcid.org/0000-0001-6794-7571"
+    affiliation: >-
+      Institute for Marine and Antarctic Studies, University of Tasmania,
+      Hobart, Tasmania, Australia
+    email: xinlong.liu@utas.edu.au
+  - family-names: Yang
+    given-names: Chengcheng
+    affiliation: >-
+      (affiliation to be confirmed by author)
+  - family-names: Chen
+    given-names: Yanyu
+    affiliation: >-
+      (affiliation to be confirmed by author)
+
+keywords:
+  - Antarctic Circumpolar Current
+  - standing meanders
+  - Pacific-Antarctic Ridge
+  - eddy saturation
+  - satellite altimetry
+  - eddy kinetic energy
+  - Southern Ocean
+  - Mann-Kendall trend test
+  - Theil-Sen slope
+
+preferred-citation:
+  type: article
+  title: >-
+    Standing Meanders of the Antarctic Circumpolar Current: Evidence for
+    Ridge-Controlled Eddy Saturation
+  year: 2026
+  journal: Journal of Geophysical Research: Oceans
+  doi: 10.1029/2025JC023527
+  url: https://doi.org/10.1029/2025JC023527
+  authors:
+    - family-names: Liu
+      given-names: Xinlong
+      orcid: "https://orcid.org/0000-0001-6794-7571"
+    - family-names: Yang
+      given-names: Chengcheng
+    - family-names: Chen
+      given-names: Yanyu

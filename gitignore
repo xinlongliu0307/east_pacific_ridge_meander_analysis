@@ -1,0 +1,43 @@
+# --- MATLAB ---
+*.asv
+*.m~
+*.mat.bak
+*.autosave
+slprj/
+sccprj/
+codegen/
+octave-workspace
+*.lck
+
+# Large intermediate MAT-files (the small ones inside the data folders are
+# explicitly version-controlled; this rule covers scratch files at the
+# repository root that should not be committed)
+/*.mat
+
+# --- NetCDF / scratch outputs ---
+*.nc.tmp
+*_scratch.nc
+*.zip
+*.tar
+*.tar.gz
+
+# --- Figures and reports that should be regenerated, not version-controlled ---
+figures/_drafts/
+output/
+*.pdf.bak
+
+# --- IDEs / editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Operating-system clutter ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Logs ---
+*.log
+*.out
+*.err
